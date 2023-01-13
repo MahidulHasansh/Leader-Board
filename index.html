@@ -1,14 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Make A Website Responsive</title>
-    <!-- css linking -->
+    <title>Leader Board</title>
+    <!-- Main css link -->
     <link rel="stylesheet" href="style.css">
+    <!-- Main css link -->
+    <link rel="stylesheet" href="responsive.css">
 </head>
+
 <body>
-    
+
+    <!-- navigation -->
+    <nav class="navigation">
+        <!-- logo -->
+        <div class="logo">
+            <img src="images/icons/logo.png" alt="Logo">
+            <h3>Idea</h3>
+        </div>
+        <!-- menu -->
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Works</a></li>
+            <li><a href="#"><img src="images/icons/profile.png" alt="User Avatar"></a></li>
+        </ul>
+    </nav>
+
+    <!-- main content -->
+    <main class="main-content">
+        <!-- player and blog -->
+        <section>
+            <!-- top player -->
+            <div class="top-player">
+                <!-- title -->
+                <div class="title">
+                    <h3>Top Player</h3>
+                </div>
+                <!-- cards -->
+                <div class="player-cards-wrapper">
+                    <div class="player-card">
+                        <img src="images/players/player-1.png" alt="player Avatar">
+                        <span>John Smith</span>
+                    </div>
+                    <div class="player-card">
+                        <img src="images/players/player-2.png" alt="player Avatar">
+                        <span>Pro Rasel</span>
+                    </div>
+                    <div class="player-card">
+                        <img src="images/players/player-3.png" alt="player Avatar">
+                        <span>Abu Sufian</span>
+                    </div>
+                    <div class="player-card">
+                        <img src="images/players/player-4.png" alt="player Avatar">
+                        <span>Shajedul Karim</span>
+                    </div>
+                    <div class="player-card">
+                        <img src="images/players/player-5.png" alt="player Avatar">
+                        <span>Maruf Ahmed</span>
+                    </div>
+                    <div class="player-card">
+                        <img src="images/players/player-3.png" alt="player Avatar">
+                        <span>Mujahid</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- top blog -->
+            <div class="top-blog">
+                <!-- title -->
+                <div class="title">
+                    <h3>Top Blog</h3>
+                </div>
+                <!-- top blog cards -->
+                <div class="blog-cards-wrapper">
+                    <div class="blog-card">
+                        <img src="images/blogs/blog-1.png" alt="Blog Image">
+                        <div class="blog-detail">
+                            <h3>13 of My Favorite</h3>
+                            <h4>UI/UX Goodies</h4>
+                            <p>By <span class="author-color">Danny Sapio</span></p>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <img src="images/blogs/blog-2.png" alt="Blog Image">
+                        <div class="blog-detail">
+                            <h3>UI cheat sheet</h3>
+                            <h4>list vs grids</h4>
+                            <p>By <span class="author-color">Tess Gadd</span></p>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <img src="images/blogs/blog-3.png" alt="Blog Image">
+                        <div class="blog-detail">
+                            <h3>7 typography tips </h3>
+                            <h4>for interface design</h4>
+                            <p>By <span class="author-color"> Jeremiah Lam</span></p>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <img src="images/blogs/blog-4.png" alt="Blog Image">
+                        <div class="blog-detail">
+                            <h3>Amazing News to Magazine</h3>
+                            <h4>Social medias</h4>
+                            <p>By <span class="author-color">Ferdinand Vogler</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- latest course -->
+        <section class="latest-course">
+            <!-- title -->
+            <div class="title">
+                <h3>Lates Course</h3>
+            </div>
+            <!-- latest course cards -->
+            <div class="latest-cards-wrapper">
+                <div class="latest-card">
+                    <img src="images/courses/course-1.png" alt="Latest card Image">
+                    <div class="latest-card-text">
+                        <h3>React - The Complete </h3>
+                        <h4>Guide 2020</h4>
+                        <p>Reed Krakoff</p>
+                    </div>
+                    <div class="latest-card-info">
+                        <div class="review">
+                            <div class="review-icon">
+                                <img src="images/icons/star.png" alt="Star Icon">
+                                <img src="images/icons/star.png" alt="Star Icon">
+                                <img src="images/icons/star.png" alt="Star Icon">
+                                <img src="images/icons/star.png" alt="Star Icon">
+                                <img src="images/icons/star.png" alt="Star Icon">
+                            </div>
+                            <h3 class="review-rate">5</h3>
+                        </div>
+                        <div class="couse-duration">
+                            <img src="images/icons/clock.png" alt="clock Icon">
+                            <span>01:30 hr</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="latest-card">
+                    <img src="images/courses/course-2.png" alt="Latest card Image">
+                    <div class="latest-card-text">
+                        <h3>Powerpoint 2020 </h3>
+                        <h4>Master Powerpoint Cour</h4>
+                        <p>Walter Scott</p>
+                    </div>
+                    <div class="latest-card-info">
+                        <div class="review">
+                            <div class="review-icon">
+                                <img src="images/icons/star.png" alt="Star Icon">
+                                <img src="images/icons/star.png" alt="Star Icon">
+                                <img src="images/icons/star.png" alt="Star Icon">
+                                <img src="images/icons/star.png" alt="Star Icon">
+                                <img src="images/icons/star.png" alt="Star Icon">
+                            </div>
+                            <h3 class="review-rate">5</h3>
+                        </div>
+                        <div class="couse-duration">
+                            <img src="images/icons/clock.png" alt="clock Icon">
+                            <span>01:68 hr</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="latest-card">
+                    <img src="images/courses/course-3.png" alt="Latest card Image">
+                    <div class="latest-card-text">
+                        <h3>The Complete JavaScript </h3>
+                        <h4>Course 2020</h4>
+                        <p>Johon Due</p>
+                    </div>
+                    <div class="latest-card-info">
+                        <div class="review">
+                            <div class="review-icon">
+                                <img src="images/icons/star.png" alt="Star Icon">
+                                <img src="images/icons/star.png" alt="Star Icon">
+                                <img src="images/icons/star.png" alt="Star Icon">
+                                <img src="images/icons/star.png" alt="Star Icon">
+                                <img src="images/icons/star.png" alt="Star Icon">
+                            </div>
+                            <h3 class="review-rate">5</h3>
+                        </div>
+                        <div class="couse-duration">
+                            <img src="images/icons/clock.png" alt="clock Icon">
+                            <span>01:08 hr</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
 </body>
+
 </html>
